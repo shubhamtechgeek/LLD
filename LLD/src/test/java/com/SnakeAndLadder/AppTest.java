@@ -1,4 +1,4 @@
-package com.lld;
+package com.SnakeAndLadder;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

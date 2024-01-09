@@ -1,4 +1,7 @@
-package com.lld;
+package com.SnakeAndLadder;
+
+import com.SnakeAndLadder.Entity.Game;
+import com.SnakeAndLadder.Entity.Player;
 
 /**
  * Hello world!

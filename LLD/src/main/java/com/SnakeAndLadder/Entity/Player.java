@@ -1,4 +1,4 @@
-package com.lld;
+package com.SnakeAndLadder.Entity;
 
 public class Player {
 

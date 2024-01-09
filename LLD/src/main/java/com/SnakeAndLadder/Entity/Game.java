@@ -1,4 +1,6 @@
-package com.lld;
+package com.SnakeAndLadder.Entity;
+
+import com.SnakeAndLadder.Random.RandomValueGenerator;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -28,7 +30,7 @@ public class Game {
 
     }
 
-    protected void newGame() {
+    public void newGame() {
 
         System.out.println("********** Game Started **********");
         System.out.println("**********              **********");
@@ -88,7 +90,7 @@ public class Game {
         }
     }
 
-    protected void addPlayer(Player player1) {
+    public void addPlayer(Player player1) {
 
         System.out.println("Player " + player1.getName() + " joined the game");
         playersQueue.add(player1);

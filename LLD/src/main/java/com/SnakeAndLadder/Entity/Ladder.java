@@ -1,6 +1,6 @@
-package com.lld;
+package com.SnakeAndLadder.Entity;
 
-public class Ladder extends BoardEntity{
+public class Ladder extends BoardEntity {
 
     public Ladder(int start, int end) {
         super(start, end);

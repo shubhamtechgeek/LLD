@@ -1,4 +1,4 @@
-package com.lld;
+package com.SnakeAndLadder.Random;
 
 public class RandomValueGenerator {
     public static int rollDice(int diceCount) {

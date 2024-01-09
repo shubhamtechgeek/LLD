@@ -1,4 +1,8 @@
-package com.lld;
+package com.SnakeAndLadder.Entity;
+
+
+import com.SnakeAndLadder.Factory.EntityFactory;
+import com.SnakeAndLadder.Random.RandomValueGenerator;
 
 import java.util.*;
 
@@ -6,7 +10,7 @@ public class Board {
 
     int size;
 
-    HashMap<Integer, BoardEntity> boardCell;
+    public HashMap<Integer, BoardEntity> boardCell;
 
 
     public Board(int dimension) {
